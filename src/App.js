@@ -5,7 +5,7 @@ function App() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const backendUrl = "http://react-backend-alb-1158815214.eu-north-1.elb.amazonaws.com/api";
+  const backendUrl = "http://dev-react-python-93760522.eu-north-1.elb.amazonaws.com/api";
 
   // Fetch Data from Backend
   useEffect(() => {
